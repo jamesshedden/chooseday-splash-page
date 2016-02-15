@@ -2,38 +2,48 @@
 <html>
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Chooseday - iPhone app</title>
-    <!--
-    /**
-     * @license
-     * MyFonts Webfont Build ID 3171887, 2016-02-15T15:25:16-0500
-     *
-     * The fonts listed in this notice are subject to the End User License
-     * Agreement(s) entered into by the website owner. All other parties are
-     * explicitly restricted from using the Licensed Webfonts(s).
-     *
-     * You may obtain a valid license at the URLs below.
-     *
-     * Webfont: AvenirLTStd-Light by Linotype
-     * URL: http://www.myfonts.com/fonts/linotype/avenir/35-light/
-     * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All
-     * Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights
-     * reserved.
-     * Licensed pageviews: 250,000
-     *
-     *
-     * License: http://www.myfonts.com/viewlicense?type=web&buildid=3171887
-     *
-     * © 2016 MyFonts Inc
-    */
-    -->
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./img/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./img/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./img/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./img/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./img/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./img/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./img/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./img/favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="Chooseday"/>
+    <meta name="msapplication-TileColor" content="#FFD230" />
+    <meta name="msapplication-TileImage" content="./img/favicons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="./img/favicons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="./img/favicons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="./img/favicons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="./img/favicons/mstile-310x310.png" />
+    <meta name="twitter:title" content="Chooseday - iPhone app">
+    <meta property="og:title" content="Chooseday - iPhone app">
+    <meta name="twitter:site" content="@jamesshedden">
+    <meta name="twitter:creator" content="@jamesshedden">
+    <meta name="description" content="Make a group of things and Chooseday will pick one for you.">
+    <meta name="og:description" content="Make a group of things and Chooseday will pick one for you.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://www.choosedayapp.com/img/sharing-image-large.jpg" />
+    <meta property="og:image" content="http://www.choosedayapp.com/img/sharing-image-large.jpg" />
+    <meta property="og:image" content="http://www.choosedayapp.com/img/sharing-image-square.jpg"/>
+    <meta property="og:site_name" content="Chooseday">
+
     <style type="text/css">
       @import url("http://hello.myfonts.net/count/2a9fff");
       @import url("http://hello.myfonts.net/count/306631");
 
-      @font-face {font-family: 'AvenirLTStd-Heavy';src: url('http://www.jshedden.com/webfonts/306631_0_0.eot');src: url('http://www.jshedden.com/webfonts/306631_0_0.eot?#iefix') format('embedded-opentype'),url('http://www.jshedden.com/webfonts/306631_0_0.woff2') format('woff2'),url('http://www.jshedden.com/webfonts/306631_0_0.woff') format('woff'),url('http://www.jshedden.com/webfonts/306631_0_0.ttf') format('truetype');}
+      @font-face {font-family: 'AvenirLTStd-Heavy';src: url('./webfonts/306631_0_0.eot');src: url('./webfonts/306631_0_0.eot?#iefix') format('embedded-opentype'),url('./webfonts/306631_0_0.woff2') format('woff2'),url('./webfonts/306631_0_0.woff') format('woff'),url('./webfonts/306631_0_0.ttf') format('truetype');}
 
-      @font-face {font-family: 'AvenirLTStd-Light';src: url('http://www.jshedden.com/webfonts/2A9FFF_0_0.eot');src: url('http://www.jshedden.com/webfonts/2A9FFF_0_0.eot?#iefix') format('embedded-opentype'),url('http://www.jshedden.com/webfonts/2A9FFF_0_0.woff') format('woff'),url('http://www.jshedden.com/webfonts/2A9FFF_0_0.ttf') format('truetype'),url('http://www.jshedden.com/webfonts/2A9FFF_0_0.svg#wf') format('svg');}
+      @font-face {font-family: 'AvenirLTStd-Light';src: url('./webfonts/306631_1_0.eot');src: url('./webfonts/306631_1_0.eot?#iefix') format('embedded-opentype'),url('./webfonts/306631_1_0.woff2') format('woff2'),url('./webfonts/306631_1_0.woff') format('woff'),url('./webfonts/306631_1_0.ttf') format('truetype');}
 
       html, body {
         height: 100%;
@@ -51,9 +61,31 @@
         font-style: normal;
       }
 
+      @media only screen and (max-width: 650px) {
+        body {
+          min-width: 0;
+          padding: 0 20px;
+          align-items: flex-start;
+        }
+      }
+
       main {
         width: 500px;
         display: flex;
+      }
+
+      @media only screen and (max-width: 650px) {
+        main {
+          width: auto;
+          margin-top: 100px;
+        }
+      }
+
+      @media only screen and (max-width: 320px) {
+        main {
+          width: auto;
+          margin-top: 50px;
+        }
       }
 
       .container {
@@ -61,10 +93,27 @@
         flex: 1 1 auto;
       }
 
+      @media only screen and (max-width: 650px) {
+        .container {
+          width: auto;
+        }
+      }
+
       .container--image {
         height: 470px;
-        background: url('./chooseday_iphone.png') no-repeat;
+        background: url('./img/chooseday_iphone.png') no-repeat;
         background-size: 100% 100%;
+      }
+
+      @media only screen and (max-width: 650px) {
+        .container--image {
+          position: fixed;
+          bottom: -300px;
+          width: 250px;
+          height: 510px;
+          left: 50%;
+          margin-left: -125px;
+        }
       }
 
       .container--text {
@@ -73,8 +122,20 @@
         align-items: center;
       }
 
+      @media only screen and (max-width: 650px) {
+        .container--text {
+          margin-left: 0;
+        }
+      }
+
       .text {
         flex: 1 1 auto;
+      }
+
+      @media only screen and (max-width: 650px) {
+        .text {
+          text-align: center;
+        }
       }
 
       .u-text-heavy {
@@ -85,7 +146,13 @@
 
       .heading {
         margin-top: 0;
-        color: #FF5400;
+        font-size: 32px;
+      }
+
+      @media only screen and (max-width: 650px) {
+        .heading {
+          font-size: 40px;
+        }
       }
 
       .paragraph {
@@ -99,15 +166,24 @@
         background: white;
         text-decoration: none;
         border-radius: 4px;
-        font-weight: bold;
       }
 
       .u-color-primary {
         color: #1CA6CF;
       }
 
+      .u-color-secondary {
+        color: #FF5400;
+      }
+
       .u-text-m {
         font-size: 16px;
+      }
+
+      @media only screen and (max-width: 650px) {
+        .u-text-m {
+          font-size: 20px;
+        }
       }
     </style>
   </head>
@@ -118,9 +194,9 @@
 
       <div class="container container--text">
         <div class="text">
-          <h1 class="heading u-text-heavy">Chooseday</h1>
+          <h1 class="heading u-color-secondary u-text-heavy">Chooseday</h1>
 
-          <p class="paragraph u-color-primary u-text-medium">
+          <p class="paragraph u-color-secondary  u-text-m">
             Make a group of things and Chooseday will pick one for you.
           </p>
 
